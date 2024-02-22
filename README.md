@@ -2,7 +2,7 @@
 
 (This game was made by me previously in C++ and then translated in python for CS50 Final Project. I decided to push it to github recently)
 
-#### DESCRIPTION:
+# DESCRIPTION:
 
 In BATTLESHIP THE GAME, you are basically playing a guessing game with the computer, according to the size of the grid you select (between 6 and 9). The computer will randomly hide 4 ships in the grid. 1 carriership which occupies 5 spaces, 1 battleship which occupies 4 spaces and 2 frigates which occupies 2 spaces each. Our job is to guess where the ship are hidden before the ammunition runs out (amount of ammunition = gridsize * gridsize / 2). The player inputs the row and column of the place where they think the ship is hidden and depending on the fact, they missed or hit, the updated grid is shown on the screen. Once the user destroys atleast 70 % structure of each of the ships or he runs out of ammunition, the game ends. After the game ends, the user is shown the actual location of the ships and a prompt showing whether they won or lost.
 
